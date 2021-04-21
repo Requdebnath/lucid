@@ -1,0 +1,528 @@
+
+*{	margin: 0;
+	padding: 0;
+}
+/*..header seaction..*/
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: url(../img/lucid.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 88vh;
+}
+.nav-link{
+	color: white !important;
+	font-size: 16px;
+	font-weight: 500;
+}
+.nav-link:hover{
+	color: #008ed6 !important;
+	background: url(../img/lucid3.png) no-repeat bottom center;
+	font-weight: 500;
+}
+.navbar-website{
+	margin-left: 8px;
+}
+.nav-item{
+	margin-left: 5px;
+}
+.navbar{
+	padding: 16px 0px;
+}
+.banner-text{
+	padding: 150px 24px;
+}
+.banner-text h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 16px;
+}
+.banner-text h1{
+	color: white;
+	font-size: 48px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.banner-text p{
+	color: #999999;
+	font-size: 18px;
+	font-weight: 380;
+	margin-bottom: 62px;
+}
+.banner-text .banner-bt button{
+	background: transparent;
+	color: white;
+	padding: 13px 27px;
+	border: 1px solid #7d7d7d;
+	margin-right: 13px;
+	font-size: 14px;
+	border-radius: 3px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.banner-text .banner-bt button:hover{
+	background: #008ed6;
+}
+.btn-1{
+	background: #008ed6 !important;
+	border: none !important;
+}
+.btn-1:hover{
+	background: transparent !important;
+	border: 1px solid #7d7d7d !important;
+}
+.banner-img{
+	padding: 75px 223px;
+}
+
+/*..amazing seaction..*/
+
+.amazing{
+	background: white;
+	padding: 60px 0px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.title{
+	text-align: center;
+}
+.title h6{
+	color: #1196d9;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 2px;
+}
+.title h1{
+	color: #1a1a1a;
+	font-size: 36px;
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+.amazing-item{
+	padding: 60px 0px;
+	text-align: center;
+}
+.amazing-item span{
+	height: 80px;
+    width: 80px;
+    border: 1px solid #d6d6d6;
+    display: inline-block;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+.amazing-item h5{
+	font-size: 24px;
+	font-weight: 500;
+	color: #1a1a1a;
+	margin-bottom: 10px;
+}
+.amazing-item p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #999999;
+}
+.beautiful{
+	background: white;
+	padding: 60px 0px;
+}
+.beautiful-text {
+	padding: 60px 0px;
+}
+.beautiful-text h6{
+	color: #1196d9;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 6px;
+}
+.beautiful-text h1{
+	color: #1a1a1a;
+	font-size: 36px;
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+
+.beautiful-text p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #999999;
+	margin-top: 16px;
+}
+.beautiful-text ul li i{
+	color: #1196d9;
+	margin-right: 16px;
+}
+.beautiful-text ul li{
+	font-size: 18px;
+}
+/*customize section*/
+
+.customize{
+	background: #f2f2f2;
+	padding: 60px 0px;
+}
+.customize-text{
+	padding: 60px 0px;
+}
+.customize-text h6{
+	color: #1196d9;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 6px;
+}
+.customize-text h1{
+	color: #1a1a1a;
+	font-size: 36px;
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+.customize-text p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #999999;
+	margin-top: 16px;
+}
+.customize-img{
+	padding-left: 80px;
+}
+
+/*pricing section*/
+
+.pricing{
+	width: 100%;
+	padding: 60px 0px;
+	background: url(../img/lucid26.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.pricing-text{
+	text-align: center;
+}
+.pricing-text h6{
+	color: #1196d9;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 2px;
+}
+.pricing-text h1{
+	color: #ffffff;
+	font-size: 36px;
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+.pricing .col-md-2{
+	padding-right: 0;
+}
+.pricing .col-md-10{
+	text-align: left;
+	padding-left: 0;	
+}
+.comment{
+	margin-top: 70px;
+}
+.comment h4{
+	color: #ffffff;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 400;
+	margin-bottom: 27px;
+}
+.comment span{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 300;
+}
+.comment p{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+}
+/*great section here*/
+
+.great{
+	width: 100%;
+	padding: 50px 0px;
+	background: url(../img/lucid27.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.great h1{
+	font-size: 36px;
+	color: #ffffff;
+	font-weight: 600;
+}
+.great h1 span{
+	font-size: 36px;
+	color: #ffffff;
+	font-weight: 200;
+}
+.great-bt{
+	padding-left: 40px;
+}
+.great-bt button{
+	color: white;
+	padding: 13px 27px;
+	border: 1px solid #7d7d7d;
+	margin-right: 13px;
+	font-size: 14px;
+	border-radius: 3px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.great-bt .btn-2{
+	background: #008ed6 !important;
+	border: none !important;
+}
+.great-bt .btn-2:hover{
+	background: transparent !important;
+	border: 1px solid #7d7d7d !important;
+}
+.great-bt .btn-1{
+	background: transparent !important;
+	border: 1px solid #7d7d7d !important;
+}
+.great-bt .btn-1:hover{
+	background: #008ed6 !important;
+	border: none !important;
+}
+/* plans section here*/
+
+.plans{
+	padding: 60px 0px;
+	text-align: center;
+}
+.plans-text h6{
+	color: #1196d9;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 8px;
+}
+.plans-text h1{
+	color: #1a1a1a;
+	font-size: 36px;
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+
+.p-table{
+	border: 1px solid #b4b4b4;
+	text-align: center;
+}
+.p-text{
+	padding: 16px;
+	border-bottom: 1px solid #b4b4b4;
+}
+.p-text h2{
+	margin: 0;
+	font-size: 24px;
+	font-weight: 700;
+}
+.p-price{
+	padding: 16px;
+	border-bottom: 1px solid #b4b4b4;
+}
+.p-price-1{
+	padding: 16px;
+	border-bottom: 1px solid #b4b4b4;
+}
+.p-price h1{
+	margin: 0;
+	font-size: 60px;
+	font-weight: 600;
+	position: relative;
+}
+.p-price h1::before {
+	position: absolute;
+	content:'$';
+    top: 14px;
+    left: 40%;
+    font-size: 25px;
+}
+.p-price-1 h1{
+	margin: 0;
+	font-size: 60px;
+	font-weight: 600;
+	position: relative;
+}
+.p-price-1 h1::before {
+	position: absolute;
+	content:'$';
+    top: 14px;
+    left: 34%;
+    font-size: 25px;
+}
+
+.p-price p{
+	font-size: 18px;
+	color: #b4b4b4;
+}
+.p-disc{
+	padding: 16px;
+}
+.p-disc p{
+	font-size: 18px;
+	color: #b4b4b4;
+	margin: 32px;
+}
+.p-disc p span{
+	color: #008ed6;
+}
+.p-disc button{
+	background: transparent;
+	color: #008ed6;
+	padding: 12px 37px;
+	border: 1px solid #b4b4b4;
+	font-size: 14px;
+	border-radius: 3px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+.p-table:hover .p-text h2{
+	color: #008ed6;
+}
+.p-table:hover .p-price{
+	background: #008ed6;
+}
+.p-table:hover .p-price h1, .p-table:hover .p-price p{
+	color: #ffffff;
+}
+.p-table:hover .p-price-1{
+	background: #008ed6;
+}
+.p-table:hover .p-price-1 h1, .p-table:hover .p-price-1 p{
+	color: #ffffff;
+}
+.p-table:hover .p-disc button{
+	background: #008ed6;
+	color: #ffffff;
+}
+/*contact section here*/
+
+.contact{
+	background: #ededed;
+	padding: 60px 0px;
+	text-align: center;
+}
+.contact-text h6{
+	color: #1196d9;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 8px;
+}
+.contact-text h1{
+	color: #1a1a1a;
+	font-size: 36px;
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+.contact-add {
+	text-align: center;
+	padding: 55px;
+}
+.contact-add p{
+	color: #b4b4b4;
+	font-size: 18px;
+	padding: 44px 67px;
+}
+.contact-form{
+	background: #15141a;
+	padding: 70px;
+	width: 65%;
+	margin: auto;
+}
+.form-control{
+	background: transparent;
+	outline: none;
+	border: 1px solid #464646;
+	margin-bottom: 16px;
+	padding: 12px;
+	color: #8b8b8b !important;
+}
+.form-area textarea{
+	width: 100%;
+    height: 182px;
+}
+.form-area-btn{
+	padding-left: 52%;
+}
+.form-area-btn button {
+	background: #008ed6;
+	color: white;
+	padding: 13px 27px;
+	margin-right: 13px;
+	font-size: 14px;
+	border-radius: 3px;
+	font-weight: 600;
+	border: none;
+	text-transform: uppercase;
+}
+.form-area-btn button:hover{
+	background: transparent !important;
+	border: 1px solid #7d7d7d !important;
+}
+
+.contact-f{
+	z-index: 999 !important;
+}
+.map{
+	z-index: -9999 !important;
+	margin-top: -100px;
+}
+
+.social-footer{
+	background: url(../img/lucid27.png);
+	width: 100%;
+	padding: 40px 0;
+	text-align: center;
+}
+.social-footer ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 18px;
+	
+}
+.social-footer ul li a i{
+	font-size: 20px;
+	color: #464646;
+}
+.social-footer ul li a i:hover{
+	color: #008ed6;
+}
+.social-footer p{
+	color: #464646;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-right: 12px;
+	text-transform: uppercase;
+}
